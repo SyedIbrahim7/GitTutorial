@@ -68,11 +68,16 @@ git restore --staged <filename> #To make file unstaged from staged
 git checkout -- <filename> #To make File restore/unmodify to previous commit
 git checkout -f #To make all File restore/unmodify to previous commit
 
+git remote
+git remote add origin https://github.com/SyedIbrahim7/GitTutorial.git
+git remote -v
 
-
-
-
-
+git push -u origin master
+ssh-keygen -t rsa -b 4096 -C "sbz77777@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+tail ~/.ssh/id_rsa.pub
+$ git push -u origin master
 
 
 
