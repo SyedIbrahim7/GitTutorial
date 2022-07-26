@@ -58,15 +58,15 @@ git mv first.txt first_renamed.txt #rename file
 
 git rm --cached db.accdb #untracked the file
 
-git commit --amend #Changing Commits
+git commit --amend #To do modifications in previous commit message
 VIM EDITOR:
 i = edit
 esp + : = niche type karne k liye
 wq = to close vim editor
 
-
-
-
+git restore --staged <filename> #To make file unstaged from staged
+git checkout -- <filename> #To make File restore/unmodify to previous commit
+git checkout -f #To make all File restore/unmodify to previous commit
 
 
 
