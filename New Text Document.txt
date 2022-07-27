@@ -79,6 +79,32 @@ ssh-add ~/.ssh/id_rsa
 tail ~/.ssh/id_rsa.pub
 $ git push -u origin master
 
+ALIAS:
+git config --global alias.st status
+git config --global alias.ci commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
